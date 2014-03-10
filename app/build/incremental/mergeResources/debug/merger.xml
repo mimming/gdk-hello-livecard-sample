@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/mimming/code/gdk-hello-livecard-sample/app/src/main/res" >
+            <file
+                name="ic_stop"
+                path="/Users/mimming/code/gdk-hello-livecard-sample/app/src/main/res/drawable-hdpi/ic_stop.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="hello_live_card"
+                path="/Users/mimming/code/gdk-hello-livecard-sample/app/src/main/res/layout/hello_live_card.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="hello_live_card"
+                path="/Users/mimming/code/gdk-hello-livecard-sample/app/src/main/res/menu/hello_live_card.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/mimming/code/gdk-hello-livecard-sample/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="card_margin" >40px
+                </dimen>
+            </file>
+            <file
+                path="/Users/mimming/code/gdk-hello-livecard-sample/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="show_live_card_voice_trigger" >show a demo
+                </string>
+                <string name="app_name" >Live Card Sample
+                </string>
+                <string name="stop" >Stop
+                </string>
+            </file>
+            <file
+                path="/Users/mimming/code/gdk-hello-livecard-sample/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="MenuTheme"
+                    parent="@android:style/Theme.DeviceDefault" >
+                    <item name="android:windowBackground">
+@android:color/transparent
+                    </item>
+                    <item name="android:colorBackgroundCacheHint">
+@null
+                    </item>
+                    <item name="android:windowIsTranslucent">
+true
+                    </item>
+                    <item name="android:windowAnimationStyle">
+@null
+                    </item>
+                </style>
+            </file>
+            <file
+                name="live_card_show"
+                path="/Users/mimming/code/gdk-hello-livecard-sample/app/src/main/res/xml/live_card_show.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="/Users/mimming/code/gdk-hello-livecard-sample/app/build/res/rs/debug" />
+        <source path="/Users/mimming/code/gdk-hello-livecard-sample/app/build/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/mimming/code/gdk-hello-livecard-sample/app/src/debug/res" />
+    </dataSet>
+
+</merger>

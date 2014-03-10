@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/mimming/code/gdk-hello-livecard-sample/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="card_margin">40px</dimen>
+    <!-- From: file:/Users/mimming/code/gdk-hello-livecard-sample/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">Live Card Sample</string>
+    <string name="show_live_card_voice_trigger">show a demo</string>
+    <string name="stop">Stop</string>
+    <!-- From: file:/Users/mimming/code/gdk-hello-livecard-sample/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="MenuTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+</resources>
