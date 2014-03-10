@@ -1,7 +1,7 @@
 Hello Live Card
 =======
 
-This sample provides a minimal implementation of a GDK Live Card for
+This unofficial sample provides a minimal implementation of a GDK Live Card for
 Google Glass. It displays the current system time at about 30 fps :)
 
 This is just something that I hacked up as an experiment. Consider it
