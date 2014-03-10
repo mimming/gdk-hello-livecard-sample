@@ -16,8 +16,7 @@ last worked as of XE12.
 4. Open it using Android Studio
 5. Install it on to your Glass
 6. Use the 'Show me a demo' voice command to run the demo. 
-    You should see a live card that looks something like this:
-    ![README/running.png]
+    You should see a live card that looks something like this: ![Hello live card running](README/running.png)
 7. Use this as a foundation for some other cool project.
 
 ## Learn More
