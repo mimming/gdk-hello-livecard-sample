@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.glass.sample.livecard;
+package com.mimming.hellolivecard;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -24,7 +24,7 @@ import android.os.Bundle;
  * Having an activity that starts the service allows one to attach with the
  * interactive debugger more predictably
  */
-public class StartLiveCardServiceActivity extends Activity {
+public class LiveCardServiceTrampolineActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

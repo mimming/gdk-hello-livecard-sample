@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.glass.sample.livecard;
+package com.mimming.hellolivecard;
 
 import android.app.PendingIntent;
 import android.app.Service;
@@ -22,7 +22,6 @@ import android.content.Intent;
 import android.os.IBinder;
 
 import com.google.android.glass.timeline.LiveCard;
-import com.google.android.glass.timeline.TimelineManager;
 
 /**
  * The main application service that manages the lifetime of the live card.
@@ -31,15 +30,12 @@ public class LiveCardService extends Service {
 
     private static final String LIVE_CARD_ID = "hello_live_card";
 
-    private TimelineManager mTimelineManager;
     private LiveCard mLiveCard;
     private LiveCardRenderer mRenderer;
 
     @Override
     public void onCreate() {
         super.onCreate();
-
-        mTimelineManager = TimelineManager.from(this);
     }
 
     @Override
@@ -50,7 +46,7 @@ public class LiveCardService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         if (mLiveCard == null) {
-            mLiveCard = mTimelineManager.createLiveCard(LIVE_CARD_ID);
+            mLiveCard = new LiveCard(this, LIVE_CARD_ID);
             mRenderer = new LiveCardRenderer(this);
 
             mLiveCard.setDirectRenderingEnabled(true);

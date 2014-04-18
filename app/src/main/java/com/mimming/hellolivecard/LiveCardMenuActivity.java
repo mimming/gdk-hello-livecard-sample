@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.glass.sample.livecard;
+package com.mimming.hellolivecard;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -38,6 +38,11 @@ public class LiveCardMenuActivity extends Activity {
     protected void onResume() {
         super.onResume();
         mResumed = true;
+    }
+
+    @Override
+    public void onAttachedToWindow() {
+        super.onAttachedToWindow();
         openOptionsMenu();
     }
 

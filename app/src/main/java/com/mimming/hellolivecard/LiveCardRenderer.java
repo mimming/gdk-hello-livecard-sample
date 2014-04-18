@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.glass.sample.livecard;
+package com.mimming.hellolivecard;
 
 import android.content.Context;
 import android.graphics.Canvas;

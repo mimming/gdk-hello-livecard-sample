@@ -1,12 +1,13 @@
 apply plugin: 'android'
 
 android {
-    compileSdkVersion "Google Inc.:Glass Development Kit Sneak Peek:15"
-    buildToolsVersion "19.0.2"
+    compileSdkVersion "Google Inc.:Glass Development Kit Preview:19"
+    buildToolsVersion "19.0.3"
+
 
     defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 15
+        minSdkVersion 19
+        targetSdkVersion 19
     }
 
     buildTypes {
